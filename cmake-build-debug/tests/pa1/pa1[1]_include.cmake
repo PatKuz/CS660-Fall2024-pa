@@ -1,0 +1,5 @@
+if(EXISTS "/Users/pkuz/Desktop/3rd Semester - Masters/CS660/CS660-Fall2024-pa/cmake-build-debug/tests/pa1/pa1[1]_tests.cmake")
+  include("/Users/pkuz/Desktop/3rd Semester - Masters/CS660/CS660-Fall2024-pa/cmake-build-debug/tests/pa1/pa1[1]_tests.cmake")
+else()
+  add_test(pa1_NOT_BUILT pa1_NOT_BUILT)
+endif()

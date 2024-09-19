@@ -17,6 +17,8 @@ class Database {
   
   BufferPool bufferPool;
 
+  std::vector<std::unique_ptr<DbFile>> fileArr; // array to hold files
+
   Database() = default;
 
 public:
